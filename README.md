@@ -1,36 +1,114 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Real Estate Broker Demo
 
-## Getting Started
+A **frontend-only demo** showcasing a **simple, mobile-first daily workflow** for real estate brokers — focused on **missed calls, follow-ups, and quick lead context** without CRM complexity.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📌 Project Context
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This project is **not**:
+- A CRM
+- An admin dashboard
+- A marketing website
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This is a **demo product** built to simulate how **small to mid-level real estate brokers** (1–20 agents) manage their **daily work**.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Most brokers:
+- Work primarily from mobile phones
+- Depend on calls, WhatsApp, memory, and notebooks
+- Avoid CRMs because they feel slow, complex, and office-like
 
-## Learn More
+This demo explores a **lighter, faster alternative**.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎯 Core Problem Being Addressed
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Brokers lose serious buyers because:
+- Missed calls are forgotten
+- Follow-ups are delayed or missed
+- There is no clear “who should I call today?” view
+- Context is lost between conversations
 
-## Deploy on Vercel
+This demo focuses on **reducing mental load**, not managing data.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🧠 Product Philosophy
+
+- One page = one mental job
+- Daily actions over reports
+- Memory replacement, not data entry
+- Speed and clarity over features
+
+If a broker can understand and use this demo **without explanation**, it’s successful.
+
+---
+
+## 🧩 What This Demo Shows
+
+- A **Today view** that tells brokers exactly what to do
+- How **missed calls** become actionable opportunities
+- How **follow-ups** are tracked day-by-day
+- A simple **leads list** that feels human, not like a system
+- Fast **add-lead flow** with minimal friction
+
+All interactions are **simulated** to demonstrate behavior and flow.
+
+---
+
+## 📱 Pages Included
+
+- `/` — Demo entry & explanation
+- `/today` — Daily action hub
+- `/missed-calls` — Missed call recovery
+- `/follow-ups` — Today & overdue follow-ups
+- `/leads` — Simple list of active people
+- `/add-lead` — Quick lead capture
+
+---
+
+## 🧭 Navigation
+
+- **Mobile**: Bottom navigation (app-like)
+- **Desktop**: Top navigation (web-friendly)
+- Same routes, same order, same behavior
+
+Navigation adapts to the device, not the user.
+
+---
+
+## ⚠️ Important Demo Notes
+
+- Frontend-only demo
+- No backend or database
+- No real call tracking
+- All data is static and mock
+- Buttons and actions simulate behavior only
+
+This demo is designed for **product validation and user feedback**, not production use.
+
+---
+
+## 🛠 Tech Stack
+
+- **Next.js** (App Router)
+- **React**
+- **Tailwind CSS**
+- Client-side only
+
+---
+
+## ✅ Success Criteria
+
+If a broker sees this demo and says:
+
+> “This feels faster and simpler than how I work today”
+
+— the demo has done its job.
+
+---
+
+## 📄 License
+
+This project is for demonstration and learning purposes.
